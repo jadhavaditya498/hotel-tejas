@@ -1,8 +1,0 @@
-{
-  "installCommand": "pnpm --dir crm install --frozen-lockfile",
-  "buildCommand": "pnpm --dir crm build",
-  "outputDirectory": "crm/dist",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
